@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  background-color: #247ba0;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.h1 {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+.main-section{
+  padding-top: 12px;
+}
+.section {
+  padding: 10px;
+  display: flex;
+  margin: 10px;
+  text-align: center;
+}
+
+.score {
+  width: 33%;
+  font-size: 4em;
+}
+
+.button-up {
+  margin: auto;
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #5fbb97;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button-up:hover {
+  background-color: #4e9b7d;
+}
+
+.button-up:active {
+  background-color: #4e9b7d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button-down {
+  margin: auto;
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff1654;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button-down:hover {
+  background-color: #d61448;
+}
+
+.button-down:active {
+  background-color: #d61448;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
